@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #a7cfdf;
+}
+
+h1 {
+    color: #a7cfdf;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

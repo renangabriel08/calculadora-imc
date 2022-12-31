@@ -1,0 +1,31 @@
+input {
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px black;
+    border: none;
+    margin: 0 15px;
+    @media (max-width: 415px) {
+        width: 220px;
+    }
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+
+    text-transform: uppercase;
+    color: white;
+    background-color: #23538a;
+    border: solid 2px white;
+    font-weight: bold;
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #23538a;
+        border: solid 2px #23538a;
+        transition: 0.4s;
+    }
+}

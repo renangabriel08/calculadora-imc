@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    
+    <title>Calculadora de imc</title>
+</head>
+<body>
+    <section class="calculadora-imc">
+
+        <div class="inicio">
+            <h2>BEM-VINDO!<br> <br>
+                Calcule seu Índice de Massa Corporal</h2>
+            <button onclick="trocaDiv(1, 2)">Iniciar</button>
+        </div>
+
+        <div class="calculadora">
+            <h1>Calculadora de IMC</h1>
+            
+            <div class="info-peso">
+                <h2>Peso:</h2>
+                <input type="number" name="peso" id="peso" placeholder="Digite seu peso em KG">
+            </div>
+
+            <div class="info-altura">
+                <h2>Altura:</h2>
+                <input type="number" name="altura" id="altura" placeholder="Digite sua altura EX: 1.75"> 
+            </div>
+
+            <button onclick="validar()">Calcular</button>
+        </div>
+
+        <div class="resultado">
+            <h2>Resultado!</h2>
+            <h3 id="resultado"></h3>
+            <div class="botoes">
+                <button onclick="trocaDiv(3, 2)">Calcular Novamente</button>
+                <button onclick="trocaDiv(3, 1)">Finalizar</button>
+            </div>
+        </div>
+
+    </section>
+</body>
+<script src="./js/main.js"></script>
+</html>
